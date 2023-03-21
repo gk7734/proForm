@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title> Today's topic is form nanda. </title>
+    <style>
+        h5 {
+            color: blue; font-size: large;
+        }
+        input {
+            background-color: yellow;
+        }
+        div {
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+        .cls1 {
+            background-color: green;
+        }
+        .cls2{
+            color: red;
+        }
+    </style>
+    <script>
+        function  mChk(){
+
+        }
+    </script>
+    
+</head>
+<body>
+    <h1 style="color: green; text-align: center"> At last, we will send tata to a server </h1>
+    <h5> input your information!! </h5>
+    <form name="frm1" method="post" action="http://arabbit.link/dirSw/insrtHstry.php">
+        <div>
+            <label class="cls1">  Grade: &nbsp; </label>
+            <input id="grd1" type="radio" name="grd" value="1">
+            <label class="cls2" for="grd1"> 1grade </label>
+            <input  id="grd2" type="radio" name="grd" value="2">
+            <label class="cls2" for="grd2"> 2grade </label>
+            <input id="grd3" type="radio" name="grd" value="3">
+            <label class="cls2" for="grd3"> 3grade </label>
+        </div>
+
+        <div>
+            <label class="cls1">  Class: &nbsp; </label>
+            <input  id="rd1" type="radio" name="cls" value="1">
+            <label for="rd1"> 1class </label>
+            <input  id="rd2" type="radio" name="cls" value="2">
+            <label for="rd2"> 2class </label>
+            <input id="rd3" type="radio" name="cls" value="3">
+            <label for="rd3"> 3class </label>
+            <input  id="rd4" type="radio" name="cls" value="4">
+            <label for="rd4"> 4class </label>
+        </div>
+
+        <div>
+            <label class="cls1"> Number: </label>
+            <input type="text" name="num" placeholder="Number?">
+        </div>
+
+        <div>
+            <label class="cls1"> Name1: </label>
+            <input type="text" name="gbn1" placeholder="Name1?">
+        </div>
+
+        <div>
+            <label class="cls1"> Name2: </label>
+            <input type="text" name="gbn2" placeholder="Name2?">
+        </div>
+
+        <div>
+            <label class="cls1"> AccessKey: </label>
+            <input type="password" name="accessKey" placeholder="AccessKey?">
+        </div>
+
+        <br>
+        <input type="submit" value=" post ">
+    </form>
+
+</body>
+</html>
